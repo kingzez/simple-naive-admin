@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <NButton>开关</NButton>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import { NButton } from 'naive-ui'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    NButton
   }
 })
 </script>

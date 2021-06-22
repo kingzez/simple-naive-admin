@@ -1,17 +1,43 @@
 {
+  "name": "simple-naive-admin",
   "version": "0.0.0",
+  "description": "A Vue3 admin. Uses Vue3, Vite and TypeScript, Not too Slow.",
+  "keywords": [
+    "Vue3 admin",
+    "TypeScript",
+    "Vite",
+    "Naive admin"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
+  "author": {
+    "name": "Vincent W",
+    "email": "vincent.mr.w@gmail.com",
+    "url": "https://github.com/kingzez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingzez/simple-naive-admin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingzez/simple-naive-admin/issues"
+  },
+  "homepage": "https://github.com/kingzez/simple-naive-admin",
   "dependencies": {
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
+    "@vitejs/plugin-vue-jsx": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",
+    "naive-ui": "^2.12.2",
+    "sass": "^1.35.1",
     "typescript": "^4.3.2",
+    "vfonts": "^0.1.0",
     "vite": "^2.3.7",
     "vue-tsc": "^0.0.24"
   }
