@@ -5,7 +5,7 @@
       <n-layout>
         <div class="main-container">
           <navbar />
-          <AppMain />
+          <main-layout />
         </div>
       </n-layout>
     </n-layout>
@@ -15,7 +15,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import { NLayout } from 'naive-ui'
-import AppMain from './components/Main.vue'
+import MainLayout from './components/MainLayout.vue'
 import Sidebar from './components/Sidebar.vue'
 import Navbar from './components/Navbar.vue'
 
@@ -23,7 +23,7 @@ export default defineComponent({
   name: 'Layout',
   components: {
     NLayout,
-    AppMain,
+    MainLayout,
     Sidebar,
     Navbar
   },

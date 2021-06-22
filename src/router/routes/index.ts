@@ -21,7 +21,7 @@ export const constantRoutes = [
     component: Layout,
     children: [
       {
-        path: 'index',
+        path: '',
         component: () => import('@/views/about/index.vue'),
         meta: { title: 'About', icon: '' }
       }
