@@ -1,0 +1,8 @@
+import { Component, h } from 'vue'
+import { NIcon } from 'naive-ui'
+
+export const noop = () => {}
+
+export function renderIcon (icon: Component) {
+  return () => h(NIcon, null, { default: () => h(icon) })
+}
