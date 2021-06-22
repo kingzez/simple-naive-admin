@@ -12,7 +12,7 @@ export default defineComponent({
   name: 'Logo',
   setup() {
     return {
-      title: ref('SN Admin') // todo make title config
+      title: ref('SNAdmin') // todo make title config
     }
   }
 })

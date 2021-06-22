@@ -1,15 +1,17 @@
 <template>
   <n-config-provider :theme="darkTheme">
-    <RouterView />
+    <n-message-provider>
+      <router-view />
+    </n-message-provider>
   </n-config-provider>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NConfigProvider } from 'naive-ui'
+import { NConfigProvider, NMessageProvider } from 'naive-ui'
 
 export default defineComponent({
   name: 'App',
-  components: { NConfigProvider}
+  components: { NConfigProvider, NMessageProvider }
 })
 </script>
