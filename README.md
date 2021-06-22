@@ -1,3 +1,3 @@
 # Simple Naive Admin
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+A Vue3 admin. Uses Vue3, Vite and TypeScript, Not too Slow.
