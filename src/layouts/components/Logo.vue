@@ -1,17 +1,19 @@
 <template>
   <div class="logo">
-    <img src="https://www.naiveui.com/assets/naivelogo.93278402.svg" alt="logo">
+    <img :src="logo" alt="logo">
     <div class="logo-title">{{ title }}</div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
+import Logo from '@/assets/img/logo.svg'
 
 export default defineComponent({
   name: 'Logo',
   setup() {
     return {
+      logo: ref(Logo),
       title: ref('SNAdmin') // todo make title config
     }
   }
