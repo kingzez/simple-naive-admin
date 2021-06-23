@@ -683,6 +683,18 @@ async-validator@^3.5.1:
   resolved "http://registry.m.jd.com/async-validator/download/async-validator-3.5.2.tgz#68e866a96824e8b2694ff7a831c1a25c44d5e500"
   integrity sha1-aOhmqWgk6LJpT/eoMcGiXETV5QA=
 
+autoprefixer@^10.2.6:
+  version "10.2.6"
+  resolved "http://registry.m.jd.com/autoprefixer/download/autoprefixer-10.2.6.tgz#aadd9ec34e1c98d403e01950038049f0eb252949"
+  integrity sha1-qt2ew04cmNQD4BlQA4BJ8OslKUk=
+  dependencies:
+    browserslist "^4.16.6"
+    caniuse-lite "^1.0.30001230"
+    colorette "^1.2.2"
+    fraction.js "^4.1.1"
+    normalize-range "^0.1.2"
+    postcss-value-parser "^4.1.0"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "http://registry.m.jd.com/balanced-match/download/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
@@ -767,7 +779,7 @@ camelcase@^6.0.0:
   resolved "http://registry.m.jd.com/camelcase/download/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha1-kkr4gcnVJaydh/QNlk5c6pgqGAk=
 
-caniuse-lite@^1.0.30001219:
+caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001230:
   version "1.0.30001239"
   resolved "http://registry.m.jd.com/caniuse-lite/download/caniuse-lite-1.0.30001239.tgz#66e8669985bb2cb84ccb10f68c25ce6dd3e4d2b8"
   integrity sha1-ZuhmmYW7LLhMyxD2jCXObdPk0rg=
@@ -1201,6 +1213,11 @@ flatted@^3.1.0:
   version "3.1.1"
   resolved "http://registry.m.jd.com/flatted/download/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha1-xLSJ6ACW2d8d/JfHmHGup8YXxGk=
+
+fraction.js@^4.1.1:
+  version "4.1.1"
+  resolved "http://registry.m.jd.com/fraction.js/download/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
+  integrity sha1-rE5SBHPa5nAS1hiquR7aCby0AP8=
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -1637,6 +1654,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "http://registry.m.jd.com/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
+
+normalize-range@^0.1.2:
+  version "0.1.2"
+  resolved "http://registry.m.jd.com/normalize-range/download/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
 once@^1.3.0:
   version "1.4.0"

@@ -57,7 +57,7 @@ export default defineComponent({
       // todo get user data from store
       user: reactive({
         username: 'Vincent W',
-        avatar: 'https://kingzez.com/images/header.png'
+        avatar: 'http://qv4v3rs4f.hb-bkt.clouddn.com/image/10891613.png'
       }),
       options: [
         {

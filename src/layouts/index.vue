@@ -37,5 +37,8 @@ export default defineComponent({
 <style lang="scss" scoped>
 .app-container {
   height: 100%;
+  .main-container {
+    height: 100%;
+  }
 }
 </style>

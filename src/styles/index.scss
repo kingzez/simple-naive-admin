@@ -1,7 +1,9 @@
 @import './var.scss';
 @import './naive-ui.scss';
+@import './modern-normalize.css';
 
-body, html {
+body,
+html {
   width: 100%;
   height: 100%;
 }

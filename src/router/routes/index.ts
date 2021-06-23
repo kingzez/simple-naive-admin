@@ -27,4 +27,14 @@ export const constantRoutes = [
       }
     ]
   },
+  {
+    path: '/:path(.*)',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        component: () => import('@/views/404/index.vue')
+      }
+    ]
+  },
 ]

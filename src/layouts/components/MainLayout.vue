@@ -14,3 +14,8 @@ export default defineComponent({
   }
 })
 </script>
+<style lang="scss" scoped>
+.main {
+  height: calc(100% - 50px);
+}
+</style>
