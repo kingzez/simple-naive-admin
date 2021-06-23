@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <img :src="logo" alt="logo">
+    <img :src="logo" alt="logo" />
     <div class="logo-title">{{ title }}</div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default defineComponent({
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   img {
     height: 32px;
     margin-left: 12px;
@@ -36,7 +36,7 @@ export default defineComponent({
   &-title {
     font-size: 16px;
     font-weight: 700;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 }
 </style>

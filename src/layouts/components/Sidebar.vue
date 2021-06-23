@@ -24,7 +24,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
-import { NIcon, NLayoutSider, NMenu } from 'naive-ui'
+import { NLayoutSider, NMenu } from 'naive-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,
@@ -37,24 +37,6 @@ const menuOptions = [
   {
     label: '首页',
     key: 'hear-the-wind-sing',
-    icon: renderIcon(BookIcon)
-  },
-  {
-    label: '1973年的弹珠玩具',
-    key: 'pinball-1973',
-    icon: renderIcon(BookIcon),
-    disabled: true,
-    children: [
-      {
-        label: '鼠',
-        key: 'rat'
-      }
-    ]
-  },
-  {
-    label: '寻羊冒险记',
-    key: 'a-wild-sheep-chase',
-    disabled: true,
     icon: renderIcon(BookIcon)
   },
   {
@@ -111,10 +93,9 @@ const menuOptions = [
 export default defineComponent({
   name: 'Sidebar',
   components: {
-    NIcon,
     NLayoutSider,
     NMenu,
-    Logo,
+    Logo
   },
   setup() {
     return {

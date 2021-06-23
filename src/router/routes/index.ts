@@ -36,5 +36,5 @@ export const constantRoutes = [
         component: () => import('@/views/404/index.vue')
       }
     ]
-  },
+  }
 ]

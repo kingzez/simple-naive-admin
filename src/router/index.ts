@@ -5,5 +5,5 @@ export const router = createRouter({
   history: createWebHistory(), // todo supplement base url
   routes: constantRoutes,
   strict: true,
-  scrollBehavior: () => ({ left: 0, top: 0 }),
+  scrollBehavior: () => ({ left: 0, top: 0 })
 })

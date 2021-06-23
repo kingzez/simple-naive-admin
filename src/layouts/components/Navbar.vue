@@ -14,11 +14,7 @@
     <div class="navbar-right">
       <n-dropdown trigger="hover" @select="handleSelect" :options="options">
         <div class="user-dropdown">
-          <n-avatar
-            circle
-            size="small"
-            :src="user.avatar"
-          />
+          <n-avatar circle size="small" :src="user.avatar" />
           <span class="username">{{ user.username }}</span>
         </div>
       </n-dropdown>
@@ -62,7 +58,7 @@ export default defineComponent({
       options: [
         {
           label: '退出系统',
-          key: 'logout',
+          key: 'logout'
         }
       ],
       routeTo(path: string) {

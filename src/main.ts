@@ -7,7 +7,4 @@ import { store } from '@/store'
 import 'vfonts/FiraCode.css'
 import '@/styles/index.scss' // global css
 
-createApp(App)
-  .use(router)
-  .use(store)
-  .mount('#app')
+createApp(App).use(router).use(store).mount('#app')

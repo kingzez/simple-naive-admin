@@ -28,9 +28,7 @@ export default defineComponent({
     Navbar
   },
   setup() {
-    return {
-
-    }
+    return {}
   }
 })
 </script>
