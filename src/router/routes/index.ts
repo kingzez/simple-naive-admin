@@ -38,3 +38,5 @@ export const constantRoutes = [
     ]
   }
 ]
+
+export const routes = [...constantRoutes, ...asyncRoutes]
